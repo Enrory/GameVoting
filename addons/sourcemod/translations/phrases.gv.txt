@@ -10,6 +10,7 @@
 		"fr" "Le joueur {1} a voté pour le bannissement de {2}. ({3}/{4})"
 		"es" "El jugador {1} vota para banear a {2}. ({3}/{4}) votos requeridos."
 		"chi" "玩家 {1} 发起了对 {2} 的封禁投票. ({3}/{4})"
+		"de" "Spieler {1} wurde zum Bannen ausgewählt {2}. ({3}/{4})"
 	}
 	"gv_voted_for_kick"
 	{
@@ -21,6 +22,7 @@
 		"fr" "Le joueur {1} a voté pour exclure {2}. ({3}/{4})"
 		"es" "El jugador {1} vota para kickear a {2}. ({3}/{4}) votos requeridos."
 		"chi" "玩家 {1} 发起了对 {2} 的踢出投票. ({3}/{4})"
+		"de" "Spieler {1} wurde zum Kicken ausgewählt {2}. ({3}/{4})"
 	}
 	"gv_voted_for_mute"
 	{
@@ -32,17 +34,19 @@
 		"fr" "Le joueur {1} a voté pour le mute de {2}. ({3}/{4})"
 		"es" "El jugador {1} vota para mutear a {2}. ({3}/{4}) votos requeridos."
 		"chi" "玩家 {1} 发起了对 {2} 的静音投票. ({3}/{4})"
+		"de" "Spieler {1} wurde zum Stummschalten ausgewählt {2}. ({3}/{4})"
 	}
 	"gv_wait_before_startvote"
 	{
 		"#format" "{1:d}"
 		"en" "Please wait {1}sec before start public vote."
-		"pt" "Por favor, aguarde {1} segundos antes de começar a votação pública."
+		"pt" "Por favor, aguarde {1}seg antes de começar a votação pública."
 		"hu" "Kérlek várj {1}másodpercet mielőtt szavazást kezdeményeznél."
 		"ru" "Пожалуйста подождите {1} с. перед тем как начать голосование."
 		"fr" "Veuillez patienter {1} sec avant de commencer le vote public."
 		"es" "Porfavor espera {1} segundos antes de empezar una votación."
 		"chi" "请等待 {1} 秒后再发起投票."
+		"de" "Bitte warte {1}Sekunde um eine Abstimmung zu starten"
 	}
 	"gv_min_players"
 	{
@@ -54,6 +58,7 @@
 		"fr" "Le minimum de joueur pour le vote doit être de  - {1}."
 		"es" "Jugadores mínimos para empezar una votación - {1}."
 		"chi" "玩家数至少应达到 {1} 人才能发起投票."
+		"de" "Spieler die benötigt werden um Abzustimmen - {1}."
 	}
 	"gv_ban_title"
 	{
@@ -64,6 +69,7 @@
 		"fr" "BANNIR"
 		"es" "BAN"
 		"chi" "封禁"
+		"de" "Bannen"
 	}
 	"gv_kick_title"
 	{
@@ -74,6 +80,7 @@
 		"fr" "EXCLURE"
 		"es" "KICK"
 		"chi" "踢出"
+		"de" "KICKEN"
 	}
 	"gv_mute_title"
 	{
@@ -84,6 +91,7 @@
 		"fr" "MUTE"
 		"es" "MUTE"
 		"chi" "静音"
+		"de" "STUMMSCHALTEN"
 	}
 	"gv_ban_title_question"
 	{
@@ -95,6 +103,7 @@
 		"fr" "BANNIR {1} ({2})?"
 		"es" "BANEAR A {1} ({2})?"
 		"chi" "封禁 {1} ({2})?"
+		"de" "BANNEN {1} ({2})?"
 	}
 	"gv_kick_title_question"
 	{
@@ -106,6 +115,7 @@
 		"fr" "EXCLURE {1}?"
 		"es" "KICKEAR A {1}?"
 		"chi" "踢出 {1}?"
+		"de" "KICKEN {1}?"
 	}
 	"gv_mute_title_question"
 	{
@@ -117,6 +127,7 @@
 		"fr" "MUTE {1}?"
 		"es" "MUTEAR A {1}?"
 		"chi" "静音 {1}?"
+		"de" "STUMMSCHALTEN {1}?"
 	}
 	"gv_yes"
 	{
@@ -127,6 +138,7 @@
 		"fr" "Oui"
 		"es" "Si"
 		"chi" "是"
+		"de" "Ja"
 	}
 	"gv_no"
 	{
@@ -137,27 +149,30 @@
 		"fr" "Non"
 		"es" "No"
 		"chi" "否"
+		"de" "Nein"
 	}
 	"gv_startvote_ban"
 	{
 		"#format" "{1:s},{2:s},{3:s}"
 		"en" "Player {1} started public vote for ban player {2} (Reason: {3})"
-		"pt" "Player {1} iniciou uma votação pública para banir {2}. (Motivo: {3})"
+		"pt" "O jogador {1} iniciou a votação pública para o banido {2} (Motivo: {3})"
 		"hu" "A (z) {1} játékos elindította a nyilvános szavazást a (2) játékos tiltásáról (Ok: {3})"
 		"ru" "Игрок {1} запустил публичное голосование за бан {2} (Причина: {3})"
 		"fr" "Le joueur {1} a lancé un vote d'interdiction publique pour {2} (Raison: {3})"
 		"es" "El jugador {1} ha lanzado un voto de prohibición pública para {2} (Motivo: {3})"
 		"chi" "玩家 {1} 发起了封禁 {2} 的公开投票 (理由: {3})"
+		"de" "Spieler {1} hat abstimmung zum Bannen auf Spieler {2} gestartet (Grund: {3})"
 	}
 	"gv_startvote_kick"
 	{
 		"#format" "{1:s},{2:s},{3:s}"
 		"en" "Player {1} started public vote for kick player {2} (Reason: {3})"
-		"pt" "Player {1} iniciou uma votação pública para kickar {2}. (Motivo: {3})"
+		"pt" "O jogador {1} lançou uma votação pública para o chute {2} (Razão: {3})"
 		"hu" "A (z) {1} játékos nyilvános szavazást indított a (z) {2} rúgásért (Ok: {3})"
 		"ru" "Игрок {1} запустил публичное голосование за кик {2} (Причина: {3})"
 		"fr" "Le joueur {1} a lancé un vote public pour le coup de pied {2} (Raison: {3})"
 		"es" "El jugador {1} ha lanzado una votación pública para la patada {2} (Motivo: {3})"
 		"chi" "玩家 {1} 发起了踢出 {2} 的公开投票 (理由: {3})"
+		"de" "Spieler {1} hat abstimmung zum Kicken auf Spieler {2} gestartet (Grund: {3})"
 	}
 }
